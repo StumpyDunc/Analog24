@@ -96,7 +96,7 @@ class Analog24View extends Ui.WatchFace {
     hidden const MINUTES_PER_HOUR = 60.0;
     hidden const MINUTES_PER_DAY = 1440.0;
     //! Shift time by 6 hours so that midnight is at the bottom
-    hidden const CLOCK_OFFSET = 360.0;
+    hidden const CLOCK_OFFSET = 0.0;
 
     //! Angle for the current time.
     //! @returns time as an angle
